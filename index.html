@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="hangman">Hangman</span>
+            <div class="word-from">Word From : <span>content</span></div>
+        </header>
+        <div class="landing">
+            <span class="end-status"></span> <a class="here">Here</a> 
+        </div>
+        <div class="hang-letters">
+            <div class="hang">
+                <span class="first-step hidden "></span>
+                <span class="seconed-step hidden"></span>
+                <span class="third-fourth hidden">
+                    <span class="third-step "></span>
+                    <span class="fourth-step "></span>
+                </span>
+                <span class="fifth-step hidden"></span>
+                <span class="sixth-step hidden"></span>
+                <span class="seventh-step hidden"></span>
+                <span class="eighth-ninth hidden">
+                    <span class="eighth-step"></span>
+                    <span class="ninth-step "></span>
+                </span>
+                <span class="tenth-eleventh hidden">
+                    <span class="tenth-step "></span>
+                    <span class="eleventh-step "></span>
+                </span>
+            </div>
+            <div class="letters">
+                <span class="letter-box ">a</span>
+                <span class="letter-box">b</span>
+                <span class="letter-box ">c</span>
+                <span class="letter-box ">d</span>
+                <span class="letter-box ">e</span>
+                <span class="letter-box ">f</span>
+                <span class="letter-box ">g</span>
+                <span class="letter-box ">h</span>
+                <span class="letter-box ">i</span>
+                <span class="letter-box ">j</span>
+                <span class="letter-box ">k</span>
+                <span class="letter-box">l</span>
+                <span class="letter-box ">m</span>
+                <span class="letter-box ">n</span>
+                <span class="letter-box ">o</span>
+                <span class="letter-box ">p</span>
+                <span class="letter-box">q</span>
+                <span class="letter-box">r</span>
+                <span class="letter-box ">s</span>
+                <span class="letter-box ">t</span>
+                <span class="letter-box">u</span>
+                <span class="letter-box ">v</span>
+                <span class="letter-box">w</span>
+                <span class="letter-box">x</span>
+                <span class="letter-box">y</span>
+                <span class="letter-box">z</span>
+            </div>
+        </div>
+        <div class="choosed-letters">
+            
+        </div>
+    </div>
+    <audio src="./failed.mp3" id="fail"></audio>
+    <audio src="./succes.mp3" id="success"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
